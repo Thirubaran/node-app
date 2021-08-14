@@ -1,14 +1,14 @@
 version: 0.2
 
 env:
-    variables:
+  variables:
     CONTAINER_REPOSITORY_URL: 843471151603.dkr.ecr.us-east-2.amazonaws.com/nodeapp
     TAG_NAME: latest
 
 phases:
   install:
     runtime-versions:
-      docker: 19
+    docker: 19
 
 pre_build:
   commands:
