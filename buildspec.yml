@@ -2,7 +2,7 @@ version: 0.2
 
 env:
     variables:
-    CONTAINER_REPOSITORY_URL:843471151603.dkr.ecr.us-east-2.amazonaws.com/nodeapp
+    CONTAINER_REPOSITORY_URL: 843471151603.dkr.ecr.us-east-2.amazonaws.com/nodeapp
     TAG_NAME: latest
 
 phases:
